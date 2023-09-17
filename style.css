@@ -47,19 +47,24 @@ h1 {
 
 button {
   margin: 10px;
-  border-radius: 8px;
+  border-radius: 16px;
   border: 1px solid transparent;
   padding: 8px;
-  font-size: 25px;
+  font-size: 10px;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #f9f9f9;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+#icon_button{
+  padding: 10px;
+  font-size: 30px;
 }
 
 input {
